@@ -91,6 +91,7 @@
             android:gravity="start"
             android:hint="Please enter your message"
             android:textAlignment="viewStart"
+            android:textColor="@color/black"
             android:textColorHint="#989898"
             android:textSize="18dp" />
 

@@ -15,8 +15,12 @@ public class ContactusActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_us);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        try{
+            ActionBar actionBar = getSupportActionBar();
+            actionBar.hide();
+        } catch (Exception e){
+            System.out.println("wur");
+        }
 
         Button contactUs = findViewById(R.id.contact_us_action);
         Button visitGitHub = findViewById(R.id.go_to_github);
@@ -32,7 +36,7 @@ public class ContactusActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("h");
-                Intent visitLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+                Intent visitLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/junaid786-prog/holy_quran"));
                 startActivity(visitLink);
             }
         });
