@@ -55,12 +55,19 @@ public class MainActivity extends AppCompatActivity {
         Intent email = new Intent(Intent.ACTION_SEND);
         email.setData(Uri.parse("mailto: "));
         email.setType("text/plain");
-        email.putExtra(Intent.EXTRA_EMAIL, target);
+        email.putExtra(Intent.EXTRA_EMAIL, to);
         email.putExtra(Intent.EXTRA_SUBJECT,subject );
         email.putExtra(Intent.EXTRA_TEXT, body);
 
         email.setType("message/rfc822");
 
         startActivity(Intent.createChooser(email, "Choose email"));
+    }
+
+    public void goWhatsapp(){
+        Intent whatsapp = new Intent(Intent.ACTION_VIEW);
+        String number = "+923495653099";
+        whatsapp.setData(Uri.parse("https://api.whatsapp.com/send?phone = " + number));
+        startActivity(whatsapp);
     }
 }

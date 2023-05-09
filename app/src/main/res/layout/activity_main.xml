@@ -78,7 +78,7 @@
             android:inputType="textPersonName"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:textColor="#b6b4c0"
+            android:textColor="@color/black"
             android:textColorHint="#989898"
             android:textSize="18dp" />
 
@@ -120,6 +120,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
+            android:id="@+id/whatsapp_pk_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -138,12 +139,13 @@
                 android:id="@+id/whatsapp_pk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
                 android:text="WHATSAPP (PK)"
                 android:textColor="#ffff"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -154,6 +156,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/whatsapp_usa_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -173,12 +176,13 @@
                 android:id="@+id/whatsapp_usa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
                 android:text="WHATSAPP (USA)"
                 android:textColor="#ffff"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -189,6 +193,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/goodwords_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -208,6 +213,7 @@
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
@@ -225,6 +231,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/visit_site_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -242,6 +249,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
