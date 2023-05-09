@@ -120,7 +120,6 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:id="@+id/whatsapp_pk_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -139,7 +138,7 @@
                 android:id="@+id/whatsapp_pk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
@@ -149,6 +148,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/whatsapp_pk_action"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
@@ -156,7 +156,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/whatsapp_usa_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -176,7 +175,7 @@
                 android:id="@+id/whatsapp_usa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
@@ -186,6 +185,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/whatsapp_usa_action"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
@@ -193,7 +193,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/goodwords_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -213,7 +212,7 @@
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
@@ -223,7 +222,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/goodwords_action"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
@@ -231,7 +230,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/visit_site_action"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -249,7 +247,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:gravity="start|center_vertical"
@@ -259,6 +257,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/visit_site_action"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"

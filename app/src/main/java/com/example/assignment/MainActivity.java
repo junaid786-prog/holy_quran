@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -29,6 +30,36 @@ public class MainActivity extends AppCompatActivity {
         Button sendEmailBtn = findViewById(R.id.send_btn);
         ImageView goBackBtn = findViewById(R.id.arrow_back);
 
+        ImageView sendWhatsappBtn = findViewById(R.id.whatsapp_pk_action);
+        ImageView sendWhatsappUSABtn = findViewById(R.id.whatsapp_usa_action);
+        ImageView sendGoodBtn = findViewById(R.id.goodwords_action);
+        ImageView visitSiteBtn = findViewById(R.id.visit_site_action);
+
+        sendWhatsappBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goWhatsapp();
+            }
+        });
+        sendWhatsappUSABtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goWhatsapp();
+            }
+        });
+        sendGoodBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goWhatsapp();
+            }
+        });
+        visitSiteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent visitLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/junaid786-prog"));
+                startActivity(visitLink);
+            }
+        });
         goBackBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
