@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff"
+    android:background="#689F35"
     android:padding="10dp"
     tools:context=".ContactusActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/go_to_github"
         android:layout_width="155dp"
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
         android:background="#000000"
         android:padding="10dp"
         android:text="Github"
@@ -23,16 +23,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/contact_us_action"
         android:layout_width="155dp"
         android:layout_height="50dp"
-        android:id="@+id/contact_us_action"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="#00aa85"
         android:text="Contact us"
         android:textColor="#ffff"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/go_to_github" />
 </androidx.constraintlayout.widget.ConstraintLayout>
