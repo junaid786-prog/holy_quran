@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/border</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="TextAreaStyle" parent="TextInputStyle">
+        <item name="android:height">150dp</item>
+    </style>
+    <style name="Theme.Assignment.Theme" parent="Theme.AppCompat.Light.NoActionBar" />
+</resources>
